@@ -1,0 +1,71 @@
+body{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-style:italic;
+   height: 100vh;
+   background: linear-gradient(to left, rgb(240, 10, 144),rgb(33, 33, 172));
+}
+
+
+
+form{
+    width: 400px;
+ 
+    background-color: beige;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    color: brown;
+    
+
+}
+
+
+label{
+    font-size: 20px;
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+    color: rgb(5, 240, 44);
+}
+
+#input-group{
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 15px;
+}
+
+form button{
+    background-color: rgb(179, 78, 78);
+    border-radius: 2px;
+    margin: 10px;
+    cursor:pointer;
+    
+    font-size: 30px;
+    width: 50%;
+  
+    
+}
+
+#input-group input{
+    border-radius: 2px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border-color: green;
+   
+}
+#input-group #error{
+    color: red;
+    font-size: 15px;
+    margin-top: 7px;
+    text-align: center;
+}
+#input-group.error input{
+   border-color: red;
+}
